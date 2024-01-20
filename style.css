@@ -1,0 +1,90 @@
+
+*{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+body {
+  border-style: solid;
+}
+
+.fas{
+  margin: 5px;
+}
+.fa{
+  margin: 5px;
+}
+
+ .repo-card {
+  border: 1px solid black;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 45%;
+  display: inline-block;
+  margin-right: 2%;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+p {
+  margin-top: 8px;
+}
+.pagination {
+  margin-left: 20vw;
+  margin-right:10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.page-link {
+  padding: 8px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 50px;
+}
+.page-link:hover {
+  background-color: #ddd;
+}
+
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  padding-left:30px ;
+}
+.image img{
+  border-radius: 100%;
+  width: 200px;
+}
+.intro .detail{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+/* Add this to your style.css file */
+.search-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#githubUsername {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
